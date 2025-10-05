@@ -1,11 +1,9 @@
 name: build
-
 on:
   push:
     branches:
       - main
   pull_request:
-
 jobs:
   sast_scan:
     name: Run Static Code Scan
